@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "wordpress": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-wordpress"],
+      "env": {
+        "WORDPRESS_URL": "https://aidiscoverydigest.com",
+        "WORDPRESS_USERNAME": "AITrendCurator",
+        "WORDPRESS_APP_PASSWORD": "LQW4e5sjemMr3ZN27LI9ZHzO"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem"]
+    },
+    "figma": {"type": "url", "url": "https://mcp.figma.com/mcp"},
+    "exa": {"command": "npx", "args": ["-y", "@anthropic/mcp-exa"], "env": {"EXA_API_KEY": "f3abc73a-db0d-47c1-830e-9f4ce57bc261"}}
+  },
+  "projectConfig": {"siteName": "aidiscoverydigest", "siteUrl": "https://aidiscoverydigest.com", "amazonTag": "aidiscoverydigest-20"}
+}
