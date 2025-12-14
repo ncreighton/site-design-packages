@@ -1,0 +1,228 @@
+{
+  "name": "WealthFromAI Design System",
+  "version": "2.0.0",
+  "lastUpdated": "2025-01-01",
+  "collections": {
+    "colors": {
+      "name": "Colors",
+      "modes": ["Dark", "Light"],
+      "variables": {
+        "primary/500": {
+          "Dark": "#D4AF37",
+          "Light": "#B8962F"
+        },
+        "primary/400": {
+          "Dark": "#E8C02E",
+          "Light": "#D4AF37"
+        },
+        "primary/600": {
+          "Dark": "#B8962F",
+          "Light": "#977A26"
+        },
+        "secondary/500": {
+          "Dark": "#1E3A5F",
+          "Light": "#2A5182"
+        },
+        "accent/500": {
+          "Dark": "#2A9D8F",
+          "Light": "#1E7268"
+        },
+        "background/default": {
+          "Dark": "#0D0D0F",
+          "Light": "#FAFAFA"
+        },
+        "background/surface": {
+          "Dark": "#151518",
+          "Light": "#FFFFFF"
+        },
+        "background/elevated": {
+          "Dark": "#1E1E22",
+          "Light": "#F5F5F5"
+        },
+        "text/primary": {
+          "Dark": "#F5F5F5",
+          "Light": "#1A1A1A"
+        },
+        "text/secondary": {
+          "Dark": "#A0A0A0",
+          "Light": "#666666"
+        },
+        "text/muted": {
+          "Dark": "#6B6B6B",
+          "Light": "#999999"
+        },
+        "border/default": {
+          "Dark": "#2A2A2E",
+          "Light": "#E5E5E5"
+        },
+        "border/hover": {
+          "Dark": "#3A3A40",
+          "Light": "#CCCCCC"
+        },
+        "semantic/success": {
+          "Dark": "#2A9D8F",
+          "Light": "#059669"
+        },
+        "semantic/warning": {
+          "Dark": "#D4AF37",
+          "Light": "#D97706"
+        },
+        "semantic/error": {
+          "Dark": "#C44536",
+          "Light": "#DC2626"
+        },
+        "semantic/info": {
+          "Dark": "#5B8DB8",
+          "Light": "#2563EB"
+        }
+      }
+    },
+    "typography": {
+      "name": "Typography",
+      "variables": {
+        "font/display": {
+          "value": "Inter",
+          "fontWeight": 700
+        },
+        "font/heading": {
+          "value": "Inter",
+          "fontWeight": 600
+        },
+        "font/body": {
+          "value": "Inter",
+          "fontWeight": 400
+        },
+        "font/mono": {
+          "value": "JetBrains Mono",
+          "fontWeight": 400
+        },
+        "size/hero": {
+          "value": 64,
+          "unit": "px"
+        },
+        "size/h1": {
+          "value": 48,
+          "unit": "px"
+        },
+        "size/h2": {
+          "value": 36,
+          "unit": "px"
+        },
+        "size/h3": {
+          "value": 28,
+          "unit": "px"
+        },
+        "size/h4": {
+          "value": 24,
+          "unit": "px"
+        },
+        "size/body": {
+          "value": 16,
+          "unit": "px"
+        },
+        "size/small": {
+          "value": 14,
+          "unit": "px"
+        },
+        "size/caption": {
+          "value": 12,
+          "unit": "px"
+        },
+        "lineHeight/tight": 1.2,
+        "lineHeight/normal": 1.5,
+        "lineHeight/relaxed": 1.7,
+        "letterSpacing/tight": "-0.01em",
+        "letterSpacing/normal": "0",
+        "letterSpacing/wide": "0.025em"
+      }
+    },
+    "spacing": {
+      "name": "Spacing",
+      "variables": {
+        "space/1": { "value": 4, "unit": "px" },
+        "space/2": { "value": 8, "unit": "px" },
+        "space/3": { "value": 12, "unit": "px" },
+        "space/4": { "value": 16, "unit": "px" },
+        "space/5": { "value": 20, "unit": "px" },
+        "space/6": { "value": 24, "unit": "px" },
+        "space/8": { "value": 32, "unit": "px" },
+        "space/10": { "value": 40, "unit": "px" },
+        "space/12": { "value": 48, "unit": "px" },
+        "space/16": { "value": 64, "unit": "px" },
+        "space/20": { "value": 80, "unit": "px" },
+        "space/24": { "value": 96, "unit": "px" },
+        "section/sm": { "value": 48, "unit": "px" },
+        "section/md": { "value": 80, "unit": "px" },
+        "section/lg": { "value": 96, "unit": "px" }
+      }
+    },
+    "radius": {
+      "name": "Border Radius",
+      "variables": {
+        "radius/none": { "value": 0, "unit": "px" },
+        "radius/sm": { "value": 4, "unit": "px" },
+        "radius/md": { "value": 6, "unit": "px" },
+        "radius/lg": { "value": 8, "unit": "px" },
+        "radius/xl": { "value": 12, "unit": "px" },
+        "radius/full": { "value": 9999, "unit": "px" }
+      }
+    },
+    "shadows": {
+      "name": "Shadows",
+      "variables": {
+        "shadow/sm": {
+          "x": 0,
+          "y": 1,
+          "blur": 3,
+          "spread": 0,
+          "color": "rgba(0,0,0,0.3)"
+        },
+        "shadow/md": {
+          "x": 0,
+          "y": 4,
+          "blur": 6,
+          "spread": 0,
+          "color": "rgba(0,0,0,0.4)"
+        },
+        "shadow/lg": {
+          "x": 0,
+          "y": 10,
+          "blur": 15,
+          "spread": 0,
+          "color": "rgba(0,0,0,0.5)"
+        },
+        "shadow/glow-gold": {
+          "x": 0,
+          "y": 0,
+          "blur": 20,
+          "spread": 0,
+          "color": "rgba(212,175,55,0.2)"
+        }
+      }
+    },
+    "components": {
+      "name": "Component Tokens",
+      "variables": {
+        "button/height-sm": { "value": 32, "unit": "px" },
+        "button/height-md": { "value": 40, "unit": "px" },
+        "button/height-lg": { "value": 48, "unit": "px" },
+        "button/padding-x": { "value": 24, "unit": "px" },
+        "button/radius": { "value": 6, "unit": "px" },
+        "input/height": { "value": 44, "unit": "px" },
+        "input/padding-x": { "value": 16, "unit": "px" },
+        "input/radius": { "value": 6, "unit": "px" },
+        "card/padding": { "value": 24, "unit": "px" },
+        "card/radius": { "value": 8, "unit": "px" },
+        "nav/height": { "value": 72, "unit": "px" },
+        "nav/height-mobile": { "value": 64, "unit": "px" }
+      }
+    }
+  },
+  "metadata": {
+    "brand": "WealthFromAI",
+    "archetype": "Ruler/Sage",
+    "mode": "dark-first",
+    "aesthetic": "Executive Premium",
+    "industry": "AI & Business"
+  }
+}
