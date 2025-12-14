@@ -1,0 +1,46 @@
+{
+  "mcpServers": {
+    "wordpress-wealthfromai": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-wordpress"],
+      "env": {
+        "WORDPRESS_URL": "https://wealthfromai.com",
+        "WORDPRESS_USERNAME": "AIWealthGuide",
+        "WORDPRESS_APP_PASSWORD": "f1utZRtkeRkP1SxVkNcxRMTC"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/home/claude/site-packages/wealthfromai"]
+    },
+    "ai-engine": {
+      "type": "url",
+      "url": "https://wealthfromai.com/wp-json/mwai/v1/mcp/sse",
+      "description": "AI Engine MCP for WordPress automation"
+    },
+    "figma": {
+      "type": "url",
+      "url": "https://mcp.figma.com/mcp",
+      "description": "Figma design access"
+    },
+    "exa": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-exa"],
+      "env": {
+        "EXA_API_KEY": "f3abc73a-db0d-47c1-830e-9f4ce57bc261"
+      }
+    }
+  },
+  "globalShortcuts": {
+    "publishPost": "Ctrl+Shift+P",
+    "previewPost": "Ctrl+Shift+V"
+  },
+  "projectConfig": {
+    "siteName": "WealthFromAI",
+    "siteUrl": "https://wealthfromai.com",
+    "amazonTag": "wealthfromai-20",
+    "systemeioTag": "wealthfromai",
+    "primaryColor": "#D4AF37",
+    "mode": "dark"
+  }
+}
