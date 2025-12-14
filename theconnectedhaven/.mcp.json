@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "wordpress": {"command": "npx", "args": ["-y", "@anthropic/mcp-wordpress"], "env": {"WORDPRESS_URL": "https://theconnectedhaven.com", "WORDPRESS_USERNAME": "TheSmartHomeGuide", "WORDPRESS_APP_PASSWORD": "zVAOwiy13yMzIldF8kaLIGdg"}},
+    "filesystem": {"command": "npx", "args": ["-y", "@modelcontextprotocol/server-filesystem"]},
+    "figma": {"type": "url", "url": "https://mcp.figma.com/mcp"},
+    "exa": {"command": "npx", "args": ["-y", "@anthropic/mcp-exa"], "env": {"EXA_API_KEY": "f3abc73a-db0d-47c1-830e-9f4ce57bc261"}}
+  },
+  "projectConfig": {"siteName": "theconnectedhaven", "siteUrl": "https://theconnectedhaven.com", "amazonTag": "connectedhaven-20"}
+}
