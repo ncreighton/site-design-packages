@@ -1,0 +1,83 @@
+/* CelebrationSeason.net - Design Tokens */
+/* Mode: Light-first | Bright & Celebratory */
+
+:root {
+  /* Primary - Celebration Crimson */
+  --color-primary: #DC143C;
+  --color-primary-light: #E84363;
+  --color-primary-dark: #B01030;
+  
+  /* Secondary - Festive Gold */
+  --color-secondary: #FFD700;
+  --color-secondary-light: #FFE433;
+  --color-secondary-dark: #CCB000;
+  
+  /* Accent - Holiday Green */
+  --color-accent: #228B22;
+  --color-accent-light: #32A532;
+  --color-accent-dark: #1A6B1A;
+  
+  /* Backgrounds - Warm Tones */
+  --color-background: #FFFEFA;
+  --color-surface: #FFF8F0;
+  --color-surface-elevated: #F5F0E8;
+  
+  /* Text */
+  --color-text: #2D2D2D;
+  --color-text-secondary: #4A4A4A;
+  --color-text-muted: #6B6B6B;
+  
+  /* Borders */
+  --color-border: #E8E4DC;
+  --color-border-hover: #D8D4CC;
+  
+  /* Seasonal Accent Colors */
+  --season-spring: #FFB6C1;
+  --season-summer: #87CEEB;
+  --season-fall: #D2691E;
+  --season-winter: #4169E1;
+  
+  /* Semantic */
+  --color-success: #228B22;
+  --color-warning: #FFD700;
+  --color-error: #DC143C;
+  --color-info: #4682B4;
+  
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  
+  /* Font Sizes */
+  --font-xs: 0.75rem;
+  --font-sm: 0.875rem;
+  --font-base: 1rem;
+  --font-lg: 1.125rem;
+  --font-xl: 1.25rem;
+  --font-2xl: 1.5rem;
+  --font-3xl: 2rem;
+  --font-4xl: 2.5rem;
+  
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  
+  /* Radius - Slightly rounded, friendly */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  
+  /* Shadows - Warm, soft */
+  --shadow-sm: 0 2px 4px rgba(45, 45, 45, 0.06);
+  --shadow-md: 0 4px 12px rgba(45, 45, 45, 0.08);
+  --shadow-lg: 0 8px 24px rgba(45, 45, 45, 0.1);
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+}
