@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | WealthFromAI</title>
+  <meta name="description" content="Contact WealthFromAI - Get in touch with our team.">
+  <link rel="stylesheet" href="../design-reference/tokens/variables-enhanced.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: var(--font-body); background: var(--color-background); color: var(--color-text); line-height: var(--leading-relaxed); }
+    .container { max-width: 800px; margin: 0 auto; padding: var(--space-16) var(--space-6); }
+    h1 { font-size: var(--font-3xl); font-weight: var(--font-bold); margin-bottom: var(--space-4); }
+    .subtitle { color: var(--color-text-secondary); margin-bottom: var(--space-8); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-8); margin-bottom: var(--space-10); }
+    @media (max-width: 640px) { .contact-grid { grid-template-columns: 1fr; } }
+    .contact-card { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-6); }
+    .contact-card h3 { font-size: var(--font-lg); margin-bottom: var(--space-2); color: var(--color-primary); }
+    .contact-card p { color: var(--color-text-secondary); font-size: var(--font-sm); margin-bottom: var(--space-4); }
+    .contact-card a { color: var(--color-text); text-decoration: none; display: block; }
+    .contact-card a:hover { color: var(--color-primary); }
+    h2 { font-size: var(--font-xl); font-weight: var(--font-semibold); margin-bottom: var(--space-6); }
+    .form-group { margin-bottom: var(--space-5); }
+    label { display: block; font-size: var(--font-sm); font-weight: var(--font-medium); color: var(--color-text-secondary); margin-bottom: var(--space-2); }
+    input, textarea, select { width: 100%; padding: var(--space-3) var(--space-4); background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); color: var(--color-text); font-family: inherit; font-size: var(--font-base); transition: var(--transition-all); }
+    input:focus, textarea:focus, select:focus { outline: none; border-color: var(--color-primary); box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1); }
+    textarea { min-height: 150px; resize: vertical; }
+    .btn { display: inline-block; background: var(--color-primary); color: var(--color-text-on-primary); padding: var(--space-3) var(--space-6); border-radius: var(--radius-md); border: none; font-weight: var(--font-semibold); font-size: var(--font-base); cursor: pointer; transition: var(--transition-all); }
+    .btn:hover { background: var(--color-primary-light); }
+    .faq { margin-top: var(--space-12); }
+    .faq-item { border-bottom: 1px solid var(--color-border); padding: var(--space-5) 0; }
+    .faq-item h4 { font-size: var(--font-base); font-weight: var(--font-semibold); margin-bottom: var(--space-2); }
+    .faq-item p { color: var(--color-text-secondary); font-size: var(--font-sm); }
+    .back-link { display: inline-flex; align-items: center; gap: var(--space-2); color: var(--color-text-muted); margin-bottom: var(--space-8); font-size: var(--font-sm); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back-link">← Back to Home</a>
+    
+    <h1>Contact Us</h1>
+    <p class="subtitle">Have a question, feedback, or business inquiry? We'd love to hear from you.</p>
+    
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>General Inquiries</h3>
+        <p>Questions about content, suggestions, or feedback</p>
+        <a href="mailto:hello@wealthfromai.com">hello@wealthfromai.com</a>
+      </div>
+      <div class="contact-card">
+        <h3>Business & Partnerships</h3>
+        <p>Advertising, sponsorships, or collaboration opportunities</p>
+        <a href="mailto:partnerships@wealthfromai.com">partnerships@wealthfromai.com</a>
+      </div>
+    </div>
+    
+    <h2>Send Us a Message</h2>
+    <form action="#" method="POST" id="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your name">
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="your@email.com">
+      </div>
+      
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject" required>
+          <option value="">Select a topic...</option>
+          <option value="general">General Question</option>
+          <option value="content">Content Suggestion</option>
+          <option value="feedback">Feedback</option>
+          <option value="business">Business Inquiry</option>
+          <option value="technical">Technical Issue</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required placeholder="How can we help you?"></textarea>
+      </div>
+      
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    
+    <div class="faq">
+      <h2>Frequently Asked Questions</h2>
+      
+      <div class="faq-item">
+        <h4>How quickly do you respond?</h4>
+        <p>We aim to respond to all inquiries within 24-48 business hours.</p>
+      </div>
+      
+      <div class="faq-item">
+        <h4>Do you accept guest posts?</h4>
+        <p>We selectively accept high-quality guest contributions that align with our editorial standards. Please reach out with your pitch.</p>
+      </div>
+      
+      <div class="faq-item">
+        <h4>Can you recommend an AI tool for my specific use case?</h4>
+        <p>We can't provide personalized consulting, but check our Tools section for recommendations across various use cases.</p>
+      </div>
+      
+      <div class="faq-item">
+        <h4>How can I advertise on WealthFromAI?</h4>
+        <p>Contact us at partnerships@wealthfromai.com with details about your product and target audience.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
