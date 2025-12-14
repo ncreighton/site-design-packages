@@ -1,0 +1,76 @@
+/* TheConnectedHaven.com - Design Tokens */
+/* Mode: Light-first | Warm Interior Magazine Feel */
+
+:root {
+  /* Primary - Haven Slate */
+  --color-primary: #6B7B8C;
+  --color-primary-light: #8A98A8;
+  --color-primary-dark: #505E6D;
+  
+  /* Secondary - Warm Bronze */
+  --color-secondary: #C4A77D;
+  --color-secondary-light: #D4BC98;
+  --color-secondary-dark: #A68B60;
+  
+  /* Accent - Sage Green */
+  --color-accent: #7C9885;
+  --color-accent-light: #96B09F;
+  --color-accent-dark: #5F7A68;
+  
+  /* Backgrounds - Warm Tones */
+  --color-background: #FDFBF8;
+  --color-surface: #F5F3EE;
+  --color-surface-elevated: #E8E4DE;
+  
+  /* Text */
+  --color-text: #2D2D2D;
+  --color-text-secondary: #5A5A5A;
+  --color-text-muted: #8A8A8A;
+  
+  /* Borders */
+  --color-border: #DDD9D2;
+  --color-border-hover: #CCC8C0;
+  
+  /* Semantic */
+  --color-success: #7C9885;
+  --color-warning: #C4A77D;
+  --color-error: #C77B7B;
+  --color-info: #6B7B8C;
+  
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  
+  /* Font Sizes */
+  --font-xs: 0.75rem;
+  --font-sm: 0.875rem;
+  --font-base: 1rem;
+  --font-lg: 1.125rem;
+  --font-xl: 1.25rem;
+  --font-2xl: 1.5rem;
+  --font-3xl: 2rem;
+  --font-4xl: 2.5rem;
+  
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  
+  /* Radius - Refined, elegant */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  
+  /* Shadows - Soft, editorial */
+  --shadow-sm: 0 2px 4px rgba(45, 45, 45, 0.04);
+  --shadow-md: 0 4px 12px rgba(45, 45, 45, 0.06);
+  --shadow-lg: 0 8px 24px rgba(45, 45, 45, 0.08);
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+}
