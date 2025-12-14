@@ -1,0 +1,73 @@
+/* SmartHomeGearReviews.com - Design Tokens */
+/* Mode: Light-first | Home Tech Aesthetic */
+
+:root {
+  /* Primary - Smart Blue */
+  --color-primary: #0066CC;
+  --color-primary-light: #3388DD;
+  --color-primary-dark: #004C99;
+  
+  /* Secondary - Connected Green */
+  --color-secondary: #10B981;
+  --color-secondary-light: #34D399;
+  --color-secondary-dark: #059669;
+  
+  /* Accent - Alert Amber */
+  --color-accent: #F59E0B;
+  --color-accent-light: #FBBF24;
+  --color-accent-dark: #D97706;
+  
+  /* Backgrounds */
+  --color-background: #FFFFFF;
+  --color-surface: #F9FAFB;
+  --color-surface-elevated: #F3F4F6;
+  
+  /* Text */
+  --color-text: #1A202C;
+  --color-text-secondary: #4A5568;
+  --color-text-muted: #718096;
+  
+  /* Borders */
+  --color-border: #E2E8F0;
+  --color-border-hover: #CBD5E0;
+  
+  /* Ecosystem Colors */
+  --ecosystem-alexa: #00CAFF;
+  --ecosystem-google: #4285F4;
+  --ecosystem-homekit: #000000;
+  --ecosystem-smartthings: #15BDF2;
+  
+  /* Semantic */
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+  --color-info: #3B82F6;
+  
+  /* Typography */
+  --font-display: 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-technical: 'JetBrains Mono', monospace;
+  
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 200ms ease;
+}
