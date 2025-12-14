@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "wordpress": {"command": "npx", "args": ["-y", "@anthropic/mcp-wordpress"], "env": {"WORDPRESS_URL": "https://celebrationseason.net", "WORDPRESS_USERNAME": "CelebrationExpert", "WORDPRESS_APP_PASSWORD": "uM1s4n54mmDQWYVV3dfQhRw2"}},
+    "filesystem": {"command": "npx", "args": ["-y", "@modelcontextprotocol/server-filesystem"]},
+    "figma": {"type": "url", "url": "https://mcp.figma.com/mcp"},
+    "exa": {"command": "npx", "args": ["-y", "@anthropic/mcp-exa"], "env": {"EXA_API_KEY": "f3abc73a-db0d-47c1-830e-9f4ce57bc261"}}
+  },
+  "projectConfig": {"siteName": "celebrationseason", "siteUrl": "https://celebrationseason.net", "amazonTag": "celebrationseason-20"}
+}
